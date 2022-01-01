@@ -1,3 +1,3 @@
 # Fixedsorter
 
-Ideosorter, but fixed!
+Ideosorter, but fixed! Yay!
