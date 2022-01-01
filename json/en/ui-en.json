@@ -1,17 +1,17 @@
 {
   "index":{
-    "title": "Ideosorter",
-    "text": "<h2>What is Ideosorter?</h2><p>Ideosorter is, in essence, a political quiz that attempts to assign an ideology that matches your views the closest by asking questions to you based on a flowchart model. This test will sort you into one of <span id='ideo_lenght'></span> different ideologies based on your answers to these questions; maybe you'll discover something you didn't know about yourself!</p><h2>I don't understand one of the questions!</h2><p>If there's anything you don't understand, we've tried to make any terminology easily looked up, and if it's still not clear, tell us so we can make some changes to the questions!</p><h2>I don't like my matched ideology!</h2><p>¯\\_(ツ)_/¯</p>",
+    "title": "Fixedsorter",
+    "text": "<h2>What is Fixedsorter?</h2><p>Fixedsorter is a political quiz that attempts to assign an ideology that matches your views the closest by asking questions to you based on a flowchart model. This idea was first conceived by TheGhostOfInky, but I (SoopaKhell) have made some modifications to the original test. Many of these modifications are minor, for example just changing the phrasing on some questions, some are major (for example, I removed distributism and the whole Georgism tree). These changes were made to make navigating the test easier and, hopefully, to make it more accurate.</p>",
     "start": "Click here to start!",
     "contacts": "Contacts:",
-    "contact_info": "<p>TheGhostOfInky#9229</p><p>theghostofinky@gmail.com</p><p><a href=\"https://github.com/Ideosorter/ideosorter.github.io\">GitHub Page</a></p>"
+    "contact_info": "<p>SoopaKhell#2576</p><p><a href=\"https://github.com/fixedsorter/fixedsorter.github.io\">GitHub Page</a></p>"
   },
   "quiz":{
-    "title": "Ideosorter - Quiz",
+    "title": "Fixedsorter - Quiz",
     "back": "back"
   },
   "results":{
-    "title": "Ideosorter - Results",
+    "title": "Fixedsorter - Results",
     "back": "Return to Index",
     "credits": "Credits"
   }
