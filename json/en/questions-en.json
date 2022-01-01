@@ -12,7 +12,7 @@
     }
   },
   "theo": {
-    "question": "Should society be run by intermediaries to a deity?",
+    "question": "Should society primarily be run by religious leaders?",
     "answers": [
       "yes",
       "no"
@@ -21,40 +21,14 @@
       "yes": "theocracy"
     },
     "nextquestion": {
-      "no": "distributism"
-    }
-  },
-  "distributism": {
-    "question": "Should private property be made as widely owned as possible?",
-    "answers": [
-      "yes",
-      "no"
-    ],
-    "results": {
-      "yes": "distributism"
-    },
-    "nextquestion": {
-      "no": "conditional_land_ownership"
-    }
-  },
-  "conditional_land_ownership": {
-    "question": "Should land ownership be conditional or unconditional?",
-    "answers": [
-      "conditional",
-      "unconditional"
-    ],
-    "results": {},
-    "nextquestion": {
-      "conditional": "scope_of_government2",
-      "unconditional": "scope_of_government1"
+      "no": "scope_of_government1"
     }
   },
   "scope_of_government1": { 
-    "question": "Should the scope of government be limited?",
+    "question": "Should society prioritize individual liberty over security, perhaps even in cases of emergency?",
     "answers": [
       "yes",
-      "no",
-      "nostate"
+      "no"
     ],
     "results": {},
     "nextquestion": {
@@ -224,7 +198,7 @@
     "nextquestion": {}
   },
   "govbasicneeds": {
-    "question": "Should the government provide the basic necessities to its citizens?",
+    "question": "Do you generally favor universal social programs over means-tested programs?",
     "answers": [
       "yes",
       "no"
@@ -243,8 +217,21 @@
       "no"
     ],
     "results": {
-      "yes": "lib",
-      "no": "neolib"
+      "yes": "keyneslib"
+    },
+    "nextquestion": {
+	  "no": "econreg2"
+	}
+  },
+  "econreg2": {
+    "question": "Should all regulation be avoided if possible, except to break up monopolies?",",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "results": {
+      "yes": "classlib",
+      "no": "soclib"
     },
     "nextquestion": {}
   },
@@ -270,33 +257,6 @@
     "results": {
       "yes": "leftroth",
       "no": "ancap"
-    },
-    "nextquestion": {}
-  },
-  "scope_of_government2": {
-    "question": "Should the scope of government be limited?",
-    "answers": [
-      "yes",
-      "no",
-      "nostate"
-    ],
-    "results": {
-      "yes": "geolib",
-      "nostate": "angeo"
-    },
-    "nextquestion": {
-      "no": "landwelfare"
-    }
-  },
-  "landwelfare": {
-    "question": "Should the revenue from land value taxes be put primarily towards welfare?",
-    "answers": [
-      "yes",
-      "no"
-    ],
-    "results": {
-      "yes": "socgeo",
-      "no": "georgism"
     },
     "nextquestion": {}
   },
