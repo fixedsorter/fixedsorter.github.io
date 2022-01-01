@@ -1,6 +1,6 @@
 {
   "private_property": {
-    "question": "Should Private Property exist",
+    "question": "Should Private Property exist?",
     "answers": [
       "yes",
       "no"
@@ -25,17 +25,28 @@
     }
   },
   "scope_of_government1": { 
-    "question": "Should society prioritize individual liberty over security, perhaps even in cases of emergency?",
+    "question": "Should society always prioritize individual liberty over security, even in cases of dire emergency?",
     "answers": [
       "yes",
       "no"
     ],
     "results": {},
     "nextquestion": {
-      "yes": "watchman_state",
-      "no": "tradvals",
-      "nostate": "counter_economics"
+      "yes": "stateyn",
+      "no": "tradvals"
     }
+  },
+  "stateyn": {
+	  	"question": "Should the state exist?",
+		"answers": [
+			"yes",
+			"no"
+		],
+		"results": {},
+		"nextquestion": {
+			"yes": "watchman_state",
+			"no": "counter_economics"
+		}
   },
   "watchman_state": {
     "question": "Should the government purely be a night watchman state?",
