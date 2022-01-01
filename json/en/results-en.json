@@ -3,6 +3,10 @@
     "result": "You're a Fourth Theorist",
     "desc": "The fourth theory is an ideology concieved by the Russian political analyst Aleksandr Dugin that seeks to find a new poltiical theory past Liberalism, Marxism and Fascism."
   },
+  "classlib": {
+    "result": "You're a classical liberal",
+    "desc": "Classical liberalism is a political ideology and a branch of liberalism that advocates free market, civil liberties under the rule of law with an emphasis on limited government, economic freedom, and political freedom. Classical liberals support laissez-faire, except to break up large monopolies."
+  },
   "agorism": {
     "result": "You're an Agorist",
     "desc": "Agorism is an ideology concieved by Samuel Edward Konkin III that seeks to establish a society in which all exchanges are voluntary, by the means of engaging in counter-economic activities."
@@ -95,7 +99,7 @@
     "result": "You're a Libertarian Socialist",
     "desc": "Libertarian Socialism is an ideology that deems that the means of production should be owned and managed by their workers with the state providing little to no interference in the economy, contrasted to the ideas of state ownership of State Socialism"
   },
-  "lib": {
+  "keyneslib": {
     "result": "You're a Keynesian Liberal",
     "desc": "Keynesian liberalism is an form of liberal capitalism that deems that for the market to function in an adequate way it must be under the supervision of an interventionist state"
   },
@@ -155,9 +159,9 @@
     "result": "You're a Neoconservative",
     "desc": "Neoconservativism promotes democracy and interventionism in international affairs, including peace through strength, and are known for espousing disdain for communism and political radicalism."
   },
-  "neolib": {
-    "result": "You're a Neoliberal",
-    "desc": "Neoliberalism is a fusion of neoclassical and Keynesian economic ideas that seeks to strike a balance between regulations and Laissez-Faire"
+  "soclib": {
+    "result": "You're a Social Liberal",
+    "desc": "Social Liberalism (originally known as Neoliberalism) is the dominant ideology in most of the Western World. A center-left liberal ideology, it advocates a mixed market economy where the government intervenes to ensure the market is working at optimal efficiency."
   },
   "orthmarx": {
     "result": "You're an Orthodox Marxist",
